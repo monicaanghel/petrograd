@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang:300');
+
+#title{
+    text-align: center;
+
+}
+
+
+body{background-image: url(image/cropped-Dinner-Scene_Opacity.png);}
+
+
+.container{
+    display: grid;
+    grid-gap: .5em;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1em;
+}
+
+
+.section-header {
+    text-align: center;
+    color: white;
+    font-family: 'Fahkwang', sans-serif;
+
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Fahkwang', sans-serif;
+
+
+}
+
+article{
+    background-color:bisque;
+    opacity:0.8;
+    box-shadow: 15px 5px 10px #888888;
+}
+.soldout{
+    opacity:0.5;
+}
+
+
+/*/nav/*/

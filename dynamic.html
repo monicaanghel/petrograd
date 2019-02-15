@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dstyle.css">
+    <title>Home Page</title>
+    <style>
+        img{
+             width: 100%;
+         }
+    article{
+    padding: 5em;
+        }
+        @media screen and (max-width:600px)
+
+         </style>
+</head>
+
+<h1 id="title">Petrograd</h1>
+
+<body>
+
+    <nav>
+        <a href="dynamic.html">Restaurant</a>
+        <a href="about">About</a>
+        <a href="menu">Menu</a>
+        <a href="reserve">Reserve</a></nav>
+    <main>
+        <h1 class="section-header">Starter</h1>
+        <section class="container container1"></section>
+
+        <h1 class="section-header">Main</h1>
+        <section class="container container2"></section>
+
+        <h1 class="section-header">Dessert</h1>
+        <section class="container container3"></section>
+
+        <h1 class="section-header">Drinks</h1>
+        <section class="container container4"></section>
+
+        <h1 class="section-header">Siders</h1>
+        <section class="container container5"></section>
+    </main>
+
+    <template id="myTemp">
+        <article>
+            <h1>Name</h1>
+            <img src="images/products/">
+            <h2>Price <span>value</span></h2>
+            <p class="category"></p>
+            <p class="shortdescription">Short Description: <span></span></p>
+            <p class="discount">Discount: <span></span></p>
+            <p class="soldout">Soldout: <span></span></p>
+            <p class="vegetarian">Vegetarian: <span></span></p>
+            <p class="alcohol">Alcohol: <span></span></p>
+
+            <button type="details">Details</button>
+        </article>
+    </template>
+</body>
+<script src="java.js"></script>
+
+</html>
